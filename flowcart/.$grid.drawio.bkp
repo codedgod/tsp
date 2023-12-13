@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-12-12T04:48:52.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="6kPB54b8Q3XQWBeV1U5s" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="6DOMKwtfpiaEN4WhwckA">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC57f1vSrEeTbWMEu9TL-2" target="DC57f1vSrEeTbWMEu9TL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-2" value="初始化边界；注意要适当的在最大最小的范围下，扩充边界；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC57f1vSrEeTbWMEu9TL-3" target="DC57f1vSrEeTbWMEu9TL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-3" value="划分3*3=9个格子" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC57f1vSrEeTbWMEu9TL-5" target="DC57f1vSrEeTbWMEu9TL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-5" value="计算每个格子的概率(每个格子的数量/总数)，&lt;b&gt;个体越少被选概率越大；&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC57f1vSrEeTbWMEu9TL-9" target="DC57f1vSrEeTbWMEu9TL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-9" value="在选中格子的选择集里面随机选择一个；" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC57f1vSrEeTbWMEu9TL-11" value="求出最好的那两个目标的值；" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

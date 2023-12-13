@@ -1,0 +1,71 @@
+<mxfile host="Electron" modified="2023-12-12T04:16:09.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="zMg7JGd0HVd9FNMOBg_v" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="Ebd1vGfdFEA4bX5ZD3pO">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-1" value="为蚂蚁分配初始城市与初始信息素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-5" target="0H2ikk0hCGwSLVt-zeVZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-10" value="&lt;b&gt;False&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0H2ikk0hCGwSLVt-zeVZ-9">
+          <mxGeometry x="-0.2044" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="220" />
+              <mxPoint x="240" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-5" value="迭代次数是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-8" target="0H2ikk0hCGwSLVt-zeVZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-8" value="1. 轮盘赌选择，根据出发城市选出途径所有城市" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-11" target="0H2ikk0hCGwSLVt-zeVZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-11" value="2.&amp;nbsp;计算适应度 3.更新信息素" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-13" target="0H2ikk0hCGwSLVt-zeVZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-13" value="4. 计算信息素=历史累计信息素-信息素挥发量+蚂蚁行走释放量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H2ikk0hCGwSLVt-zeVZ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="630" />
+              <mxPoint x="480" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-15" value="比较适应度，求得最优解" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H2ikk0hCGwSLVt-zeVZ-21" value="最后一次的迭代里面的最优值就是最优的结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
